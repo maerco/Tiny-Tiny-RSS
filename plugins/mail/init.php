@@ -124,6 +124,7 @@ class Mail extends Plugin {
 				$tpl->addBlock('note');
 			}
 			$tpl->setVariable('ARTICLE_URL', strip_tags($line["link"]));
+			$tpl->setVariable('ARTICLE_CONTENT', strip_tags($line["content"]));
 
 			$tpl->addBlock('article');
 		}
