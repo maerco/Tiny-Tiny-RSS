@@ -3,14 +3,11 @@ Hi,
 
 Thought I'd share the following with you:
 
-<!-- $BeginBlock article -->
-* ${ARTICLE_TITLE}
-<!-- $BeginBlock note -->
-  ${ARTICLE_NOTE}
-<!-- $EndBlock note -->
-  ${ARTICLE_URL}
-<!-- $EndBlock article -->
+ <!-- $BeginBlock article -->
+<b><a href="${ARTICLE_URL}">${ARTICLE_TITLE}</a></b>
 
--- 
+${ARTICLE_CONTENT}
+ <!-- $EndBlock article -->
+--
 This message has been sent by Tiny Tiny RSS installation at ${TTRSS_HOST}.
 <!-- $EndBlock email -->
